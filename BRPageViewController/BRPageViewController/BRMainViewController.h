@@ -14,13 +14,7 @@
 @property (nonatomic, copy) NSArray <__kindof UIViewController *> *viewControllers;
 @property (nonatomic) NSUInteger selectedIndex;
 
-/**
- Hide or show title scroll view.
- 
- Parameters:
- 
- hide: Specify YES to hide the title scroll view or NO to show it
- */
+/** 隐藏或显示标题滚动视图 */
 - (void)hideTitleScrollView:(BOOL)hide;
 
 @end
