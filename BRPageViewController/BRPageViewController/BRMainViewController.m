@@ -13,11 +13,11 @@
 
 @interface BRMainViewController ()<UIScrollViewDelegate>
 @property (nonatomic, strong) BRTitleScrollView *titleScrollView;
-@property (nonatomic, strong) NSArray <UIButton *> *titleButtons; // in title scroll view
-@property (nonatomic, strong) UIView *markLine; // in title scroll view; to mark the title
+@property (nonatomic, strong) NSArray <UIButton *> *titleButtons;
+@property (nonatomic, strong) UIView *markLine;
 @property (nonatomic, strong) UIScrollView *contentScrollView;
-@property (nonatomic, strong) UIViewController *contentViewController; // view controller displaying content
-@property (nonatomic, strong) UIView *contentView; // for content view controller
+@property (nonatomic, strong) UIViewController *contentViewController;
+@property (nonatomic, strong) UIView *contentView;
 
 @property (nonatomic, assign) CGFloat minEndDraggingVelocity; //结束最小的拖动速度
 
